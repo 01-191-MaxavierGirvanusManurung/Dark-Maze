@@ -135,29 +135,29 @@ class Player(pygame.sprite.Sprite):
     def update(self):
         self.char_animation()
 
-pygame.init()
-screen = pygame.display.set_mode((1280, 720))
-clock = pygame.time.Clock()
+# pygame.init()
+# screen = pygame.display.set_mode((1280, 720))
+# clock = pygame.time.Clock()
 
-player = Player()
+# player = Player()
 
-while True:
-    for event in pygame.event.get():
-        if event.type == pygame.QUIT:
-            pygame.quit()
-            sys.exit()
-        if event.type == pygame.KEYDOWN:
-            if event.key == pygame.K_k and not player.is_attacking2 and not player.is_attacking1:
-                player.is_attacking2 = True
-                player.attack_index = 0
-            elif event.key == pygame.K_j and not player.is_attacking1 and not player.is_attacking2:
-                player.is_attacking1 = True
-                player.attack_index = 0
+# while True:
+#     for event in pygame.event.get():
+#         if event.type == pygame.QUIT:
+#             pygame.quit()
+#             sys.exit()
+        # if event.type == pygame.KEYDOWN:
+        #     if event.key == pygame.K_k and not player.is_attacking2 and not player.is_attacking1:
+        #         player.is_attacking2 = True
+        #         player.attack_index = 0
+        #     elif event.key == pygame.K_j and not player.is_attacking1 and not player.is_attacking2:
+        #         player.is_attacking1 = True
+        #         player.attack_index = 0
 
-    screen.fill((94, 129, 162))
+    # screen.fill((94, 129, 162))
 
-    player.update()
-    screen.blit(player.animation, player.rect)
+    # player.update()
+    # screen.blit(player.animation, player.rect)
 
-    pygame.display.update()
-    clock.tick(60)
+    # pygame.display.update()
+    # clock.tick(60)
