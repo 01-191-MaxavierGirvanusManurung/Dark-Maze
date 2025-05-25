@@ -7,7 +7,6 @@ class Player(pygame.sprite.Sprite):
         super().__init__()
 
         # Menggunakan path absolut yang Anda berikan
-        # PASTIKAN PATH INI VALID DI KOMPUTER ANDA
         base_sprite_path_player = "Player/" 
         base_sound_path_player = "assets/"
 
