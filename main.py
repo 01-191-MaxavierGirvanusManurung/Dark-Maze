@@ -337,14 +337,14 @@ class Game:
                         
                     if player_hitbox.colliderect(coll_rect):
                         if coll_type == 'door':
-                            if self.inventory["keys"] >= 1: 
-                                self.inventory["keys"] -= 1
+                            if self.inventory["keys"] >= 3: 
+                                self.inventory["keys"] -= 3
                                 print(f"Door unlocked! Keys left: {self.inventory['keys']}")
                                 self.open_door_at_coords(collidable_obj['coords'])
                             else: 
                                 if dx > 0: player_hitbox.right = coll_rect.left
                                 elif dx < 0: player_hitbox.left = coll_rect.right
-                                print("Door is locked. Need 1 key!")
+                                print("Door is locked. Need 3 key!")
                         elif coll_type == 'wall': 
                             if dx > 0: player_hitbox.right = coll_rect.left
                             elif dx < 0: player_hitbox.left = coll_rect.right
@@ -367,14 +367,14 @@ class Game:
 
                     if player_hitbox.colliderect(coll_rect):
                         if coll_type == 'door':
-                            if self.inventory["keys"] >= 1: 
-                                self.inventory["keys"] -= 1
+                            if self.inventory["keys"] >= 3: 
+                                self.inventory["keys"] -= 3
                                 print(f"Door unlocked! Keys left: {self.inventory['keys']}")
                                 self.open_door_at_coords(collidable_obj['coords'])
                             else: 
                                 if dy > 0: player_hitbox.bottom = coll_rect.top
                                 elif dy < 0: player_hitbox.top = coll_rect.bottom
-                                print("Door is locked. Need 1 key!")
+                                print("Door is locked. Need 3 key!")
                         elif coll_type == 'wall': 
                             if dy > 0: player_hitbox.bottom = coll_rect.top
                             elif dy < 0: player_hitbox.top = coll_rect.bottom
