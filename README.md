@@ -1,9 +1,9 @@
 # Link Video 
 
-[Demo Aplikasi]("OTW ")
+[Demo Aplikasi] (https://www.youtube.com/watch?v=N0a_5vZ4ygs) dan (https://youtu.be/L_xyNqG_pj8)
 
 
-# <h1 align="center">POPCOK</h1>
+# <h1 align="center">Dark Maze</h1>
 
 ##  Deskripsi
 
