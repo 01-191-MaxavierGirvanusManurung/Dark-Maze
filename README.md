@@ -27,7 +27,7 @@
 ## Cara menjalankan App
 <p>1. Pastikan sudah mendownload python dan jika belum installer di https://www.python.org/
       dan centang opsi “Add Python to PATH” saat instalasi</p>
-<p>2. Download seluruh file, seperti pada gambar. Jika sudah ekstrak terlebih dahulu.</p>
+<p>2. Download seluruh file. Jika sudah ekstrak terlebih dahulu.</p>
 
 <p>3. Install library pygame</p>
 
@@ -46,19 +46,6 @@ py -m pip install -U pygame --user
 
 bash
 python3 -m pip install -U pygame --user
-
-<p>5. Setelah berada di dalam folder Dark Maze jalankan </p>
-<p>Untuk Windows</p>
-
-bash
-py main.py
-
-
-
-<p>Untuk Mac</p>
-
-bash
-python3 main.py
 
 
 <p>Enjoy, walaupun Game Kami belum 100% jadi</p>
